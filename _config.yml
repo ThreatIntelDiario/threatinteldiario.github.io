@@ -7,9 +7,9 @@ minimal_mistakes_skin    : "haxor" # usa tu skin personalizado
 
 # Site Settings
 locale                   : "es-MX"
-title                    : "CiberNoticias Diario"
+title                    : "Threat Intel Diario"
 title_separator          : "|"
-name                     : "CiberNoticias Diario"
+name                     : "Threat Intel Diario"
 
 description              : "Periódico digital de ciberseguridad: phishing, malware, OSINT y noticias de amenazas"
 
@@ -49,7 +49,7 @@ og_image                 : "/assets/images/og-image.png"
 # Social Profiles
 social:
   type                   : "Organization"
-  name                   : "CiberNoticias Diario"
+  name                   : "Threat Intel Diario"
   links:
     - "https://x.com/threatinteldiar"
 
@@ -62,7 +62,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "CiberNoticias Diario"
+  name             : "Threat Intel Diario"
   avatar           : "/assets/images/avatar.png"
   bio              : >
     Diario digital de ciberseguridad: seguimiento de campañas de phishing,
