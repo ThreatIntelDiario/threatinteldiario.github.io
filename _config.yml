@@ -21,6 +21,9 @@ logo                     : "/assets/images/logo.png"
 favicon                  : "/assets/images/favicon.png"
 teaser                   : "/assets/images/teaser.png"
 
+logo                     : "/assets/images/masthead.png"
+teaser                   : "/assets/images/teaser.png"
+
 breadcrumbs              : true
 words_per_minute         : 220
 
