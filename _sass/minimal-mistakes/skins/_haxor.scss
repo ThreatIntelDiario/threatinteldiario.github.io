@@ -1,28 +1,49 @@
 /* ==========================================================================
-   Customized dark skin @snowscan
+   Customized dark skin @snowscan (editado)
    ========================================================================== */
 
-/* Colors */
-$background-color: #050d1a !default;
-$text-color: #eaeaea !default;
-$primary-color: #16c8d1 !default;
-$border-color: mix(#fff, $background-color, 20%) !default;
+/* Colores principales */
+$background-color: #0a0f1f !default;   /* un poco más claro que #050d1a */
+$text-color: #f2f2f2 !default;         /* texto más blanco para contraste */
+$primary-color: #d32f2f !default;      /* rojo periódico para titulares y enlaces */
+$border-color: mix(#fff, $background-color, 25%) !default;
+
+/* Fondos */
 $code-background-color: mix(rgb(0, 156, 204), $background-color, 15%) !default;
 $code-background-color-dark: mix(#000, $background-color, 20%) !default;
 $form-background-color: mix(#000, $background-color, 15%) !default;
-$footer-background-color: mix(#000, $background-color, 30%) !default;
-$link-color: mix($primary-color, $text-color, 40%) !default;
-$link-color-hover: mix(#fff, $link-color, 25%) !default;
-$link-color-visited: mix(#000, $link-color, 25%) !default;
+$footer-background-color: mix(#000, $background-color, 40%) !default;
+
+/* Enlaces */
+$link-color: $primary-color !default;
+$link-color-hover: lighten($primary-color, 10%) !default;
+$link-color-visited: mix(#000, $primary-color, 25%) !default;
+
 $masthead-link-color: $text-color !default;
-$masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
+$masthead-link-color-hover: lighten($text-color, 20%) !default;
 $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
 
+/* Tipografía periodística */
+body {
+  font-family: 'Georgia', serif;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: 'Merriweather', serif;
+  border-bottom: 2px solid $primary-color;
+  padding-bottom: 4px;
+}
+
+/* Íconos sociales */
 .author__urls.social-icons .svg-inline--fa,
 .page__footer-follow .social-icons .svg-inline--fa {
   color: inherit;
 }
 
+/* Buscador */
 .ais-search-box .ais-search-box--input {
   background-color: $form-background-color;
+  border: 1px solid $border-color;
+  color: $text-color;
 }
