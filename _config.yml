@@ -3,7 +3,7 @@
 
 # Theme Settings
 remote_theme             : "mmistakes/minimal-mistakes@4.15.1"
-minimal_mistakes_skin    : "dark" # opciones: air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
+minimal_mistakes_skin    : "haxor" # usa tu skin personalizado
 
 # Site Settings
 locale                   : "es-MX"
@@ -17,7 +17,8 @@ url                      : "https://threatinteldiario.github.io"
 baseurl                  : ""
 repository               : "ThreatIntelDiario/threatinteldiario.github.io"
 
-logo                     : "/assets/images/masthead.png"
+logo                     : "/assets/images/logo.png"
+favicon                  : "/assets/images/favicon.png"
 teaser                   : "/assets/images/teaser.png"
 
 breadcrumbs              : true
@@ -68,7 +69,7 @@ author:
     actividad de malware, infraestructura adversaria y amenazas emergentes.
   location         : "México"
   twitter          : "threatinteldiar"
-  github           : "ThreatIntelDiario"
+  # Se eliminó el enlace de GitHub
 
 # Lectura y exclusiones
 include:
