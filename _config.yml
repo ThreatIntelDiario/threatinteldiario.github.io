@@ -1,23 +1,20 @@
-```yaml
-# Welcome to Jekyll!
-#
 # Threat Intel Diario Configuration
-# Cyber Threat Intelligence & Research Platform
+# Periódico digital de ciberseguridad
 
 # Theme Settings
 remote_theme             : "mmistakes/minimal-mistakes@4.15.1"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # opciones: air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
 
 # Site Settings
-locale                   : "en-US"
-title                    : "threatinteldiario"
+locale                   : "es-MX"
+title                    : "CiberNoticias Diario"
 title_separator          : "|"
-name                     : "threatinteldiario"
+name                     : "CiberNoticias Diario"
 
-description              : "Cyber Threat Intelligence, phishing analysis, malware research, OSINT investigations and cybersecurity news"
+description              : "Periódico digital de ciberseguridad: phishing, malware, OSINT y noticias de amenazas"
 
-url                      : "https://snowscan.io"
-baseurl                  :
+url                      : "https://threatinteldiario.github.io"
+baseurl                  : ""
 repository               : "ThreatIntelDiario/threatinteldiario.github.io"
 
 logo                     : "/assets/images/masthead.png"
@@ -26,72 +23,34 @@ teaser                   : "/assets/images/teaser.png"
 breadcrumbs              : true
 words_per_minute         : 220
 
+# Comentarios y feeds
 comments:
   provider               : false
 
-staticman:
-  allowedFields          :
-  branch                 :
-  commitMessage          :
-  filename               :
-  format                 :
-  moderation             :
-  path                   :
-  requiredFields         :
-  transforms:
-    email                :
-  generatedFields:
-    date:
-      type               :
-      options:
-        format           :
-
-reCaptcha:
-  siteKey                :
-  secret                 :
-
 atom_feed:
-  path                   :
+  path                   : feed.xml
 
+# Buscador interno
 search                   : true
 search_full_content      : true
 search_provider          : "lunr"
 
-algolia:
-  application_id         :
-  index_name             :
-  search_only_api_key    :
-  powered_by             : true
-
-google:
-  search_engine_id       :
-  instant_search         : false
-
 # SEO Related
 google_site_verification :
 bing_site_verification   :
-yandex_site_verification :
-naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : "ThreatIntelMX"
-
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
+  username               : "threatinteldiar"
 
 og_image                 : "/assets/images/og-image.png"
 
 # Social Profiles
 social:
   type                   : "Organization"
-  name                   : "threatinteldiario"
-
+  name                   : "CiberNoticias Diario"
   links:
-    - "https://twitter.com/ThreatIntelMX"
-    - "https://github.com/ThreatIntelDiario"
+    - "https://x.com/threatinteldiar"
 
 # Analytics
 analytics:
@@ -102,56 +61,16 @@ analytics:
 
 # Site Author
 author:
-  name             : "threatinteldiario"
-
+  name             : "CiberNoticias Diario"
   avatar           : "/assets/images/avatar.png"
-
   bio              : >
-    Cyber Threat Intelligence researcher tracking phishing campaigns,
-    malware activity, adversary infrastructure,
-    infostealers and emerging cyber threats.
-
-  location         : "Mexico"
-
-  email            :
-  uri              :
-  home             :
-
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-
+    Diario digital de ciberseguridad: seguimiento de campañas de phishing,
+    actividad de malware, infraestructura adversaria y amenazas emergentes.
+  location         : "México"
+  twitter          : "threatinteldiar"
   github           : "ThreatIntelDiario"
 
-  gitlab           :
-  google_plus      :
-  keybase          :
-
-  instagram        :
-  lastfm           :
-
-  linkedin         :
-
-  pinterest        :
-  soundcloud       :
-
-  stackoverflow    :
-  steam            :
-
-  tumblr           :
-
-  twitter          : "ThreatIntelMX"
-
-  vine             :
-  weibo            :
-  xing             :
-
-  youtube          :
-
-# Reading Files
+# Lectura y exclusiones
 include:
   - .htaccess
   - _pages
@@ -160,137 +79,58 @@ exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
   - vendor
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
-  - Capfile
-  - CHANGELOG
-  - config
-  - Gemfile
-  - Gemfile.lock
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - log
   - node_modules
-  - package.json
-  - Rakefile
-  - README
   - README.md
   - tmp
   - /docs
   - /test
 
-keep_files:
-  - .git
-  - .svn
-
 encoding: "utf-8"
-
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Conversion
 markdown: kramdown
 highlighter: rouge
-
-lsi: false
-
 excerpt_separator: "\n\n"
-
-incremental: false
-
-# Markdown Processing
-kramdown:
-  input: GFM
-
-  hard_wrap: false
-
-  auto_ids: true
-
-  footnote_nr: 1
-
-  entity_output: as_char
-
-  toc_levels: 1..6
-
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-
-  enable_coderay: false
 
 # Sass/SCSS
 sass:
   sass_dir: _sass
-
   style: compressed
 
 # Outputting
 permalink: /:categories/:title/
-
 paginate: 8
-
 paginate_path: /page:num/
-
 timezone: "America/Mexico_City"
 
 # Plugins
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-
-# mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
 
 # Archives
 category_archive:
   type: liquid
   path: /categories/
-
 tag_archive:
   type: liquid
   path: /tags/
 
-# HTML Compression
-compress_html:
-  clippings: all
-
-  ignore:
-    envs: development
-
 # Defaults
 defaults:
-
-  # _posts
   - scope:
       path: ""
       type: posts
-
     values:
       layout: single
-
       author_profile: true
-
       read_time: true
-
       comments: false
-
       share: true
-
       related: true
-
       toc: true
-
       toc_sticky: true
-``
