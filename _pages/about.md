@@ -21,7 +21,7 @@ Convertirnos en un referente en español sobre ciberseguridad, combinando análi
 
 ### Una voz cercana
 Este proyecto nace de la pasión por el periodismo y la seguridad digital.  
-Soy Val, editor y creador de este espacio, convencido de que el Mundial y otros eventos masivos son un espejo donde se reflejan las tácticas del cibercrimen.  
+  
 Aquí encontrarás reportajes, análisis y recomendaciones prácticas, escritos con la intención de que te sientas acompañado y protegido en el mundo digital.
 
 📬 Contacto: [@threatinteldiar](https://x.com/threatinteldiar)
