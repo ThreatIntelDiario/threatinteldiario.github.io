@@ -25,3 +25,5 @@ Expertos advierten que el Mundial se convierte en un “imán” para el cibercr
 - Implementar copias de seguridad offline.  
 - Segmentar redes corporativas para limitar la propagación.  
 - Capacitar empleados en detección de correos fraudulentos.  
+
+![Campaña de ransomware durante el Mundial](/assets/images/ransomware-mundial.png)
