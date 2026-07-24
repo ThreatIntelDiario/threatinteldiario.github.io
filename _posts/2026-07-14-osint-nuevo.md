@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Deepfakes y verificación digital: el nuevo campo de batalla"
-date: 2026-06-28
+date: 2026-07-24
 categories: osint
 tags: deepfake, osint, verificacion, synthid, openai
 read_time: true
