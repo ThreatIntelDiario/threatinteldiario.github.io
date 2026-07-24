@@ -1,29 +1,32 @@
 ---
 layout: single
-title: "Ransomware apunta a patrocinadores del Mundial"
-date: 2026-05-29
-categories: seguridad
-tags: ransomware, mundial, patrocinadores, fraude
+title: "Edgecution: el ransomware que se oculta en extensiones de navegador"
+date: 2026-06-15
+categories: ransomware
+tags: edgecution, navegador, ransomware, ciberseguridad
 read_time: true
 header:
-  teaser: "/assets/images/ransomware-mundial.png"
+  teaser: "/assets/images/edgecution.png"
 ---
 
-### Ola de ataques
-Investigadores de ciberseguridad han identificado campañas de **ransomware** dirigidas específicamente a empresas patrocinadoras del Mundial de Futbol.  
-Los atacantes buscan aprovechar la enorme visibilidad del evento para extorsionar a marcas globales, amenazando con filtrar información sensible si no se realizan pagos.
+### Un ataque disfrazado
+En junio se identificó **Edgecution**, un ransomware distribuido mediante **extensiones maliciosas de navegador**.  
+Su principal vector fue **Microsoft Edge**, aprovechando la confianza de los usuarios en la tienda oficial para instalar complementos aparentemente legítimos.
 
-### Estrategia criminal
-Los grupos detrás de estas campañas utilizan correos electrónicos falsos con temática del Mundial, documentos infectados y enlaces maliciosos en redes sociales.  
-El objetivo es comprometer sistemas corporativos y cifrar datos críticos justo en momentos de máxima exposición mediática.
+### Cómo actúa
+Una vez instalada la extensión, Edgecution:
+- **Cifra archivos locales y en la nube**, bloqueando documentos críticos.  
+- **Exfiltra credenciales de sesión** de servicios web.  
+- **Redirige tráfico del navegador** para instalar cargas adicionales.  
 
-### Impacto potencial
-Un ataque exitoso podría afectar la reputación de las marcas, interrumpir operaciones logísticas y generar pérdidas millonarias.  
-Expertos advierten que el Mundial se convierte en un “imán” para el cibercrimen, donde cada patrocinador es visto como un blanco de alto valor.
+### Riesgo para usuarios y empresas
+El ataque demostró que incluso **tiendas oficiales de extensiones** pueden ser explotadas como canal de distribución.  
+Las víctimas incluyeron tanto usuarios domésticos como organizaciones que dependen de navegadores para acceder a aplicaciones corporativas.
 
-### Recomendaciones
-- Implementar copias de seguridad offline.  
-- Segmentar redes corporativas para limitar la propagación.  
-- Capacitar empleados en detección de correos fraudulentos.  
+### Cómo protegerse
+- **Revisar permisos de extensiones** antes de instalarlas.  
+- **Usar soluciones de seguridad con protección contra ransomware**.  
+- **Mantener respaldos cifrados y desconectados**.  
+- **Deshabilitar extensiones sospechosas** y reportarlas de inmediato.  
 
-![Campaña de ransomware durante el Mundial](/assets/images/ransomware-mundial.png)
+---
