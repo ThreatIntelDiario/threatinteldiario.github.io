@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "NeuroLink AR: gafas de realidad aumentada con control neuronal"
-date: 2026-06-22
+date: 2026-07-22
 categories: tecnologia
 tags: neurolink, realidad_aumentada, interfaz_neural, wearables
 read_time: true
