@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "BlackBasta: la amenaza que combina cifrado y filtración"
-date: 2026-06-25
+date: 2026-07-24
 categories: ransomware
 tags: blackbasta, ransomware, doble_extorsion, ciberseguridad
 read_time: true
