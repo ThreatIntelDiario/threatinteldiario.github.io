@@ -1,27 +1,32 @@
 ---
 layout: single
-title: "Campañas de fraude con boletos falsos del Mundial detectadas vía OSINT"
-date: 2026-05-29
-categories: osint
-tags: phishing, boletos, osint, mundial
+title: "Miasma: el ataque a la cadena de suministro que golpeó a la nube"
+date: 2026-06-20
+categories: malware
+tags: miasma, supply_chain, linux, cloud, ciberseguridad
 read_time: true
 header:
-  teaser: "/assets/images/boletos-falsos.png"
+  teaser: "/assets/images/miasma.png"
 ---
 
-### Investigación OSINT
-Analistas de **OSINT** han rastreado múltiples sitios web que venden boletos falsos para el Mundial.  
-Los dominios fueron vinculados a infraestructura en Europa del Este, con patrones de registro y servidores compartidos entre varias campañas fraudulentas.
+### Un ataque silencioso
+En junio se reveló una campaña bautizada como **Miasma**, que logró infiltrarse en la cadena de suministro de software al comprometer más de **30 paquetes npm legítimos**.  
+Este ataque se centró en entornos **Linux y cloud**, aprovechando la confianza en repositorios oficiales para distribuir código malicioso.
 
-### El fraude
-Los compradores reciben boletos digitales falsos que no son reconocidos por la FIFA ni por las plataformas oficiales.  
-En algunos casos, los atacantes también roban datos de tarjetas de crédito durante la transacción.
+### Cómo actúa
+El malware insertado en los paquetes permitía a los atacantes:
+- **Robar credenciales cloud** de servicios como **AWS, Azure y GCP**.  
+- **Exfiltrar secretos de Kubernetes** y tokens de desarrollo.  
+- **Acceder a pipelines CI/CD comprometidos**, obteniendo control sobre infraestructuras críticas.  
 
-### Magnitud del problema
-Se estima que miles de aficionados han sido víctimas de estas estafas, generando pérdidas millonarias y afectando la confianza en la compra digital.  
-Las campañas se difunden principalmente por redes sociales y grupos de mensajería.
+### Riesgo global
+La campaña afectó especialmente a **entornos de desarrollo y CI/CD**, donde la automatización depende de tokens y credenciales.  
+El ataque demostró cómo un compromiso en la cadena de suministro puede escalar rápidamente a incidentes de gran impacto.
 
-### Recomendaciones
-- Verificar entradas únicamente en portales oficiales de la FIFA.  
-- Evitar enlaces compartidos en redes sociales.  
-- Reportar sitios sospechosos a las autoridades.  
+### Cómo protegerse
+- **Auditar dependencias y paquetes externos** antes de integrarlos.  
+- **Implementar controles de seguridad en pipelines CI/CD**.  
+- **Aplicar el principio de mínimo privilegio** en credenciales.  
+- **Monitorizar actividad anómala en builds y gestores de secretos**.  
+
+---
