@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "QuantumLeap: el chip cuántico híbrido que promete acelerar la IA"
-date: 2026-06-12
+date: 2026-07-24
 categories: tecnologia
 tags: quantumleap, computacion_cuantica, inteligencia_artificial, hardware
 read_time: true
