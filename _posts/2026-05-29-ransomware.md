@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Edgecution: el ransomware que se oculta en extensiones de navegador"
-date: 2026-06-15
+date: 2026-07-24
 categories: ransomware
 tags: edgecution, navegador, ransomware, ciberseguridad
 read_time: true
