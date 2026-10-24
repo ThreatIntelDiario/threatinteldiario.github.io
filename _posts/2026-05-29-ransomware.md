@@ -1,32 +1,39 @@
 ---
 layout: single
-title: "Edgecution: el ransomware que se oculta en extensiones de navegador"
-date: 2026-07-24
+title: "Ransomware: la doble extorsión continúa amenazando a organizaciones"
+date: 2026-10-24
 categories: ransomware
-tags: edgecution, navegador, ransomware, ciberseguridad
+tags: ransomware, doble-extorsion, ciberseguridad, filtracion-de-datos
 read_time: true
 header:
-  teaser: "/assets/images/edgecution.png"
+  teaser: "/assets/images/ransomware-double-extortion.png"
 ---
 
-### Un ataque disfrazado
-En junio se identificó **Edgecution**, un ransomware distribuido mediante **extensiones maliciosas de navegador**.  
-Su principal vector fue **Microsoft Edge**, aprovechando la confianza de los usuarios en la tienda oficial para instalar complementos aparentemente legítimos.
+### La doble extorsión como estrategia de los grupos de ransomware
+Los grupos de **ransomware** continúan utilizando esquemas de doble extorsión como parte de sus operaciones contra organizaciones de diferentes sectores.
+
+Esta modalidad combina el cifrado de información con la extracción de datos confidenciales, permitiendo a los actores amenazar con publicar la información sustraída en caso de que la víctima no realice el pago exigido.
 
 ### Cómo actúa
-Una vez instalada la extensión, Edgecution:
-- **Cifra archivos locales y en la nube**, bloqueando documentos críticos.  
-- **Exfiltra credenciales de sesión** de servicios web.  
-- **Redirige tráfico del navegador** para instalar cargas adicionales.  
+Los grupos de ransomware pueden:
+- Obtener acceso inicial a redes corporativas mediante credenciales comprometidas o vulnerabilidades.
+- Identificar sistemas y archivos de interés dentro de la infraestructura afectada.
+- Exfiltrar información confidencial antes de iniciar el proceso de cifrado.
+- Interrumpir operaciones mediante el bloqueo de archivos y sistemas.
+- Publicar información sustraída en sitios de filtración para presionar a las víctimas.
 
-### Riesgo para usuarios y empresas
-El ataque demostró que incluso **tiendas oficiales de extensiones** pueden ser explotadas como canal de distribución.  
-Las víctimas incluyeron tanto usuarios domésticos como organizaciones que dependen de navegadores para acceder a aplicaciones corporativas.
+### Riesgo para las organizaciones
+La doble extorsión representa un riesgo significativo debido a que las organizaciones pueden enfrentar consecuencias incluso cuando cuentan con respaldos para recuperar sus sistemas.
 
-### Cómo protegerse
-- **Revisar permisos de extensiones** antes de instalarlas.  
-- **Usar soluciones de seguridad con protección contra ransomware**.  
-- **Mantener respaldos cifrados y desconectados**.  
-- **Deshabilitar extensiones sospechosas** y reportarlas de inmediato.  
+La exposición de información confidencial podría facilitar actividades de fraude, suplantación de identidad, ingeniería social y afectaciones reputacionales.
 
----
+Asimismo, la publicación de datos en sitios de filtración puede incrementar la presión sobre las organizaciones afectadas y prolongar las consecuencias del incidente.
+
+### Recomendaciones
+- Mantener respaldos periódicos y verificar su integridad mediante pruebas de restauración.
+- Implementar soluciones de detección y respuesta en endpoints (EDR).
+- Aplicar actualizaciones de seguridad en sistemas operativos y aplicaciones.
+- Restringir privilegios administrativos y utilizar autenticación multifactor.
+- Supervisar conexiones salientes y posibles transferencias inusuales de información.
+- Desarrollar procedimientos de respuesta ante incidentes de ransomware.
+- Revisar periódicamente los accesos remotos y las cuentas privilegiadas.
