@@ -12,7 +12,7 @@ header:
 ### SafePay, una amenaza activa para organizaciones a nivel mundial
 El grupo de ransomware **SafePay** ha sido señalado por autoridades de ciberseguridad por afectar a más de **600 organizaciones en todo el mundo** desde agosto de 2024, incluyendo entidades de sectores de infraestructura crítica.
 
-De acuerdo con una alerta conjunta de agencias de seguridad, entre ellas CISA y el FBI, el grupo representa una amenaza para organizaciones de América del Norte, América del Sur, Europa y Australia. [Fuente: BleepingComputer](https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/).
+De acuerdo con una alerta conjunta de agencias de seguridad, entre ellas CISA y el FBI, el grupo representa una amenaza para organizaciones de América del Norte, América del Sur, Europa y Australia.
 
 ### Cómo actúa
 SafePay utiliza diferentes técnicas para obtener acceso a redes corporativas y ejecutar sus operaciones de ransomware. Entre las principales actividades identificadas se encuentran:
