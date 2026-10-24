@@ -15,7 +15,6 @@ Microsoft presentó nuevas tecnologías orientadas a ejecutar modelos de intelig
 
 De acuerdo con información publicada por Reuters el 7 de octubre de 2026, la compañía también presentó herramientas de seguridad diseñadas para limitar las acciones de agentes de inteligencia artificial autónomos, así como nuevos equipos de alto rendimiento destinados a ejecutar estas cargas de trabajo.
 
-[Fuente: Reuters](https://www.reuters.com/business/microsoft-nvidia-ceos-unveil-new-ai-laptop-san-francisco-event-2026-10-07/).
 
 ### ¿Cómo funciona esta tecnología?
 
