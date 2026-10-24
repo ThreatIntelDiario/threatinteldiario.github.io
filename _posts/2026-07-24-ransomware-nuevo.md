@@ -1,32 +1,40 @@
 ---
 layout: single
-title: "BlackBasta: la amenaza que combina cifrado y filtración"
-date: 2026-07-24
+title: "SafePay: el grupo de ransomware que ha afectado a más de 600 organizaciones"
+date: 2026-10-24
 categories: ransomware
-tags: blackbasta, ransomware, doble_extorsion, ciberseguridad
+tags: SafePay, ransomware, doble-extorsion, ciberseguridad, threat-intelligence
 read_time: true
 header:
-  teaser: "/assets/images/blackbasta.png"
+  teaser: "/assets/images/safepay-ransomware.png"
 ---
 
-### Una doble extorsión
-El grupo detrás de **BlackBasta** intensificó sus ataques en junio, aplicando la estrategia de **doble extorsión**:  
-Primero cifran los sistemas de la víctima y luego amenazan con **publicar datos sensibles** si no se paga el rescate.
+### SafePay, una amenaza activa para organizaciones a nivel mundial
+El grupo de ransomware **SafePay** ha sido señalado por autoridades de ciberseguridad por afectar a más de **600 organizaciones en todo el mundo** desde agosto de 2024, incluyendo entidades de sectores de infraestructura crítica.
+
+De acuerdo con una alerta conjunta de agencias de seguridad, entre ellas CISA y el FBI, el grupo representa una amenaza para organizaciones de América del Norte, América del Sur, Europa y Australia. [Fuente: BleepingComputer](https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/).
 
 ### Cómo actúa
-BlackBasta se infiltra mediante:
-- **Explotación de credenciales comprometidas** en accesos remotos.  
-- **Uso de malware loader** para desplegar el ransomware.  
-- **Cifrado rápido de sistemas críticos**, acompañado de robo de información.  
+SafePay utiliza diferentes técnicas para obtener acceso a redes corporativas y ejecutar sus operaciones de ransomware. Entre las principales actividades identificadas se encuentran:
+- Aprovechamiento de credenciales comprometidas y contraseñas débiles.
+- Explotación de vulnerabilidades en dispositivos expuestos a Internet, incluidos servicios VPN y equipos de perímetro.
+- Acceso inicial mediante ataques de fuerza bruta y campañas de phishing.
+- Exfiltración de información confidencial antes del cifrado de los sistemas.
+- Eliminación de copias de recuperación y manipulación de respaldos para dificultar la restauración.
+- Doble extorsión mediante amenazas de publicar los datos sustraídos si la víctima no paga el rescate.
 
-### Impacto global
-Empresas de sectores como **salud, manufactura y telecomunicaciones** fueron blanco de esta campaña.  
-El modelo de doble extorsión aumenta la presión sobre las víctimas, ya que el daño reputacional se suma al operativo.
+### Riesgo para las organizaciones
+La actividad de SafePay representa un riesgo considerable debido a su capacidad para combinar el cifrado de sistemas con el robo de información.
 
-### Cómo protegerse
-- **Implementar autenticación multifactor** en accesos remotos.  
-- **Segmentar redes y limitar privilegios** para reducir el alcance del ataque.  
-- **Monitorear actividad sospechosa en endpoints y servidores**.  
-- **Contar con planes de respuesta ante incidentes** que incluyan negociación y recuperación.  
+Las organizaciones afectadas pueden experimentar interrupciones operativas, pérdida de acceso a información crítica, exposición de datos confidenciales y daños reputacionales.
 
----
+Asimismo, la eliminación de copias de recuperación puede complicar los procesos de restauración y prolongar el tiempo necesario para recuperar las operaciones. Las autoridades advierten que pagar un rescate no garantiza la recuperación de los archivos ni evita la divulgación de la información sustraída.
+
+### Recomendaciones
+- Implementar autenticación multifactor (MFA) en cuentas corporativas y accesos remotos.
+- Actualizar sistemas operativos, VPN, firewalls y dispositivos expuestos a Internet.
+- Aplicar políticas de contraseñas robustas y protección contra ataques de fuerza bruta.
+- Restringir privilegios administrativos y limitar el uso de herramientas de administración remota.
+- Mantener respaldos aislados o inmutables y comprobar periódicamente su restauración.
+- Supervisar conexiones sospechosas, movimientos laterales y transferencias inusuales de información.
+- Establecer procedimientos de respuesta a incidentes y recuperación ante ataques de ransomware.
